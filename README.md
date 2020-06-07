@@ -6,5 +6,7 @@ This framework uses techniques described by Meir Bartel and Jonathan Cook in the
 The framework is structured around a controller class and a set of reusable "action" classes.
 
 ==============           ============
+
 | Controller | --------> | [Action] |
+
 ==============           ============
