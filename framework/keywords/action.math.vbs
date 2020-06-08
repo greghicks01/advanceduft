@@ -7,6 +7,7 @@ class[math]
 	Public object_id
 	Public value
 	Public result
+	Public store_result_as
 
 	Sub Class_Initialize()
 		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)

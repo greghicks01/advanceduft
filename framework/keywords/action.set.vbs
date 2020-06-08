@@ -7,6 +7,7 @@ Class [set]
 	Public object_id ' schema to split on | or ,?
 	Public value     ' schema to split on | or ,?
 	Public result
+	Public store_result_as
 
 	Sub Class_Initialize()
 		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
