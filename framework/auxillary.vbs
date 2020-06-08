@@ -7,10 +7,8 @@ Function ASSERT_RESULT(ByVal iResult)
     ' --------------------------------------------------------
     ASSERT_RESULT = CLng(iResult)
     If CLng(iResult) <> CLng(micPass) Then
-        Reporter.ReportEvent micWarning, "ASSERT_RESULT",
-        "The action stopped by ASSERT_RESULT"
-        Execute(Environment("ON_FAILURE") & "(" &
-        CStr(CLng(iResult)) & ")")
+        Reporter.ReportEvent micWarning, "ASSERT_RESULT", "The action stopped by ASSERT_RESULT"
+        Execute(Environment("ON_FAILURE") & "(" & CStr(CLng(iResult)) & ")")
     End If
 End Function
 
@@ -104,8 +102,7 @@ Function PadNumber(iNum, ByVal iMax)
         PadNumber = iNum
         Exit Function
     End If
-    PadNumber = String(Len(CStr(Abs(iMax)))-
-    Len(CStr(Abs(iNum))), "0") & CStr(Abs(iNum))
+    PadNumber = String(Len(CStr(Abs(iMax))) - Len(CStr(Abs(iNum))), "0") & CStr(Abs(iNum))
 End Function
 
 Function Timestamp()
@@ -150,8 +147,6 @@ Class CNum
     Public Function [-=](n)
         value = value-n
         [-=] = value
-        Design Patterns
-        242
     End Function
     Public Function [*=](n)
         value = value*n

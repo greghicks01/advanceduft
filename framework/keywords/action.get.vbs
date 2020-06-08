@@ -9,16 +9,17 @@ Class [get]
 	Public result
 
 	Sub Class_Initialize()
-		InfoClassInstance(me, "Loaded successfully")
+		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
 	End sub
 	
 	Private Sub Class_Terminate()
-		InfoClassInstance(me, "Terminated successfully")
+		Call InfoClassInstance(me, C_OBJ_UNLOADED_MSG)
 	End Sub
 
-	function run( object )
+	sub run( object )
 		print("get value")
-		run = "value)
-	End Function
+		result = "value"
+		Status = 0
+	End Sub
 	
 End Class

@@ -39,8 +39,7 @@ Class Controller
         Dim sFolder, sDatasheet 'For datasheet import
         ' ------------------------------------------------
         ' -------------------------------------------------
-        '--- Get the name of the folder from which to
-        import datasheets (same as test)
+        '--- Get the name of the folder from which to import datasheets (same as test)
         sFolder = Environment("TestName")
         '--- Add sheet
         DataTable.AddSheet(C_STEPS_DATASHEET)
@@ -140,14 +139,12 @@ Class Controller
                 '--- Update the Step status with the iteration status
                 iStepStatus.[+=]iIterationStatus
                 '--- Send Action result (end) to the log
-                PrintReportInfo "Step " & oAction.StepNum & " - Action '" & sActionName & "'", "Ended at " & Timestamp() & " with status " &
-                GetNormalizedStatus(iStepStatus)
+                PrintReportInfo "Step " & oAction.StepNum & " - Action '" & sActionName & "'", "Ended at " & Timestamp() & " with status " & GetNormalizedStatus(iStepStatus)
                 '--- Dispose of the oAction object
                 Set oAction = Nothing
             ElseIf CStr(bRun) = "FALSE" Then
                 '--- Send skip Step to the log
-                PrintReportInfo "Step " & dt.GetParameter("STEP_ID").Value & "
-                - Action '" & sActionName & "'", "Not planned to run"
+                PrintReportInfo "Step " & dt.GetParameter("STEP_ID").Value & " - Action '" & sActionName & "'", "Not planned to run"
             Else
                 '--- Send no directive for Step to the log
                 PrintReportInfo "Step " & dt.GetParameter("STEP_ID").Value & " -Action '" & sActionName & "'","Undefined"
@@ -168,7 +165,7 @@ Class Controller
 End Class
 
 Function RunTest()
-    Dim oTestRunner
-    ASSERT_RESULT(GetClassInstance(oTestRunner, "Controller"))
+    Dim oController
+    ASSERT_RESULT(GetClassInstance(oController, "Controller"))
     RunTest = oController.Run(Environment("DATA_FOLDER"))
 End Function

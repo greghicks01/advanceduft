@@ -5,8 +5,7 @@ Function ReportActionStatus(ByRef p)
     ' Args : ByRef p
     ' Returns : N/A
     ' --------------------------------------------------
-    Reporter.ReportEvent GetNormalizedStatus(p.Status.Value),
-    TypeName(p), p.Details & GetStatusText(p.Status.Value)
+    Reporter.ReportEvent GetNormalizedStatus(p.Status.Value), TypeName(p), p.Details & GetStatusText(p.Status.Value)
 End Function
 
 Function GetStatusText(ByVal iStatus)

@@ -10,10 +10,11 @@ class[action name]
 	Public store_result_as
 
 	Private Sub Class_Initialize()
-		InfoClassInstance(me, "Loaded successfully")
+		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
 	End Sub
 	
 	Private Sub Class_Terminate()
+		Call InfoClassInstance(me, C_OBJ_UNLOADED_MSG)
 	End Sub
 		
 	Sub Run()

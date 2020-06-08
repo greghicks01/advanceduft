@@ -1,4 +1,4 @@
-Class [Click]
+Class [set]
 
 	Public dt
 	Public Iteration
@@ -9,15 +9,15 @@ Class [Click]
 	Public result
 
 	Sub Class_Initialize()
-		InfoClassInstance(me, "Loaded successfully")
+		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
 	End sub
 	
 	Private Sub Class_Terminate()
-		InfoClassInstance(me, "Terminated successfully")
+		Call InfoClassInstance(me, C_OBJ_UNLOADED_MSG)
 	End Sub
 
-	Sub run( obj )
-		print("click")
+	Sub run()
+		object_id.set(value)
 	End Sub
 	
 End Class
