@@ -16,8 +16,7 @@ End Function
 
 Function InfoClassInstance(ByVal p, ByVal msg)
     '---------------------------------------------------------
-    'Description: Prints a log message relating to an
-    object
+    'Description: Prints a log message relating to an object
     'Arguments :
     ' p - a reference to the instance
     ' msg - a string

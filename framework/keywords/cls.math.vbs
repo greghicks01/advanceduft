@@ -7,6 +7,14 @@ class[math]
 	Public object_id
 	Public value
 	Public result
+
+	Sub Class_Initialize()
+		InfoClassInstance(me, "Loaded successfully")
+	End sub
+	
+	Private Sub Class_Terminate()
+		InfoClassInstance(me, "Terminated successfully")
+	End Sub
 	
 	Sub Run()
 		' your code here processing value into what you need

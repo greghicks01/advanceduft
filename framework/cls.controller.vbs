@@ -68,6 +68,9 @@ Class Controller
                 Set iStepStatus = [As Num](0)
                 '--- Assign Step id
                 oAction.StepNum = dt.GetParameter("STEP_ID").Value
+                oAction.object_id = dt.GetParameter("OBJECT_IDENTIFIER").Value
+                oAction.value = dt.GetParameter("VALUE").Value
+                oAction.store_result_as = dt.GetParameter("STORE_RESULT_AS").Value
                 '--- Get datasheet name to import (for data-driven actions)
                 sDatasheet = dt.GetParameter("DATASHEET").Value
                 If Trim(sDatasheet) = "" Then
@@ -113,6 +116,14 @@ Class Controller
                     End If
                     On Error Goto 0
                     ' -------------------------------------
+                    ' --- Get result
+                    On Error Resume Next ' --- Try
+                    Call results.add(oAction.store_result_as, oAction.result)
+                    If Err.Number <> 0 Then
+                    	me.ErrorHandler.RunMappedProcedure(Err.Number)
+                    End If
+                    On Error Goto 0
+                    '--------------------------------------
                     '--- Get the Action status
                     iIterationStatus.[+=]oAction.Status
                     '--- Send iteration result to the log
