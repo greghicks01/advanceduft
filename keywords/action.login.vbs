@@ -11,27 +11,18 @@ Class [Login]
 
 	Sub Class_Initialize()
 		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
+		Set me.Status = [As Num](0)
 	End sub
 	
 	Private Sub Class_Terminate()
 		Call InfoClassInstance(me, C_OBJ_UNLOADED_MSG)
+		Set me.Status = Nothing
 	End Sub
 	
 	Sub run()
 	
 		Dim oAction
-		
-		ASSERT_RESULT(GetClassInstance(oAction, "[" & "set" & "]"))
-		oAction.object_id = ""
-		oAction.value = ""
-		oAction.run()
-		oAction.run()
-		oAction = Nothing
-		
 	
-		ASSERT_RESULT(GetClassInstance(oAction, "[" & "click" & "]"))
-		oAction.run()
-		oAction = Nothing
 		
 	End Sub
 	

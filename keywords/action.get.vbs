@@ -11,16 +11,15 @@ Class [get]
 
 	Sub Class_Initialize()
 		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
+		Set me.Status = [As Num](0)
 	End sub
 	
 	Private Sub Class_Terminate()
 		Call InfoClassInstance(me, C_OBJ_UNLOADED_MSG)
+		Set me.Status = Nothing
 	End Sub
 
 	sub run()
-		print("get value")
-		result = object_id.get()
-		Status = 0
 	End Sub
 	
 End Class
