@@ -11,19 +11,22 @@ class[action name]
 
 	Private Sub Class_Initialize()
 		Call InfoClassInstance(me, C_OBJ_LOADED_MSG)
+		Set me.Status = [As Num](0)
 	End Sub
 	
 	Private Sub Class_Terminate()
 		Call InfoClassInstance(me, C_OBJ_UNLOADED_MSG)
+		Set me.status = Nothing
 	End Sub
 		
 	Sub Run()
-		' your code here processing object_id and  value into what you need
-		
-        On Error Goto 0
-		Status = 0
+		me.Details = "Ended with "
+		' your code here processing
+		me.Status.[+=]EnterUserName()
+		'-----
+        Call ReportActionStatus(me)
 	End Sub
 	
-	' Other fucntions and subs to ease maintenance
+	' Other functions and subs to ease maintenance
 	
 end class
