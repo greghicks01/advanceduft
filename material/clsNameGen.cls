@@ -7,10 +7,10 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = False
 Attribute VB_Exposed = False
-Public oDic As Object
+Public oDct As Object
 
 Private Sub Class_Initialize()
-    Set oDic = CreateObject("scripting.dictionary")
+    Set oDct = CreateObject("scripting.dictionary")
     
     gatherHeader
     
@@ -22,18 +22,18 @@ Sub gatherHeader()
     iRow = 2
     Do
     
-        oDic.Add dData.Cells(iRow, 2).Value, iRow - 1
+        oDct.Add dData.Cells(iRow, 2).Value, iRow - 1
         iRow = iRow + 1
     Loop Until dData.Cells(iRow, 2).Value = ""
 
 End Sub
 
 Property Get ColumnNum(ColumnName As String)
-    ColumnNum = oDic.Item(ColumnName)
+    ColumnNum = oDct.Item(ColumnName)
     
 End Property
 
 Private Sub Class_Terminate()
-    Set oDic = Nothing
+    Set oDct = Nothing
     
 End Sub

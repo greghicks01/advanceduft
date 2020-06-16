@@ -1,0 +1,302 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:03:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:03:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:03:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:03:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:03:59</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>UFT could not load the following function libraries because they contain syntax errors: C:\workspace\languages\VBS\uft\advanceduft\framework\Support.vbs</Description>
+    <StartTime>2020-06-16 14:03:59</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\ead21310-dc60-4e24-afba-89d119042138.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>UFT could not load the following function libraries because they contain syntax errors: C:\workspace\languages\VBS\uft\advanceduft\lib\cls.faker..vbs</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\eea5efee-49e8-414b-a990-7b2f2418c978.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>UFT could not load the following function libraries because they contain syntax errors: C:\workspace\languages\VBS\uft\advanceduft\lib\registered.functions.vbs</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\880b81e1-967a-4c8f-868b-df95f5f2cb0a.jpeg" />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>aa6338949c4e4f91bc533c8c3187a299</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test </Name>
+    <Description>Started at 20200616_140400</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>56ec2994a98b4869a05e9dc5a3398378</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>GetClassInstance</Name>
+    <Description>Failed to create an instance of '[Open Browser]'</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>56ec2994a98b4869a05e9dc5a3398378</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>GetClassInstance</Name>
+    <Description>Failed to create an instance of '[Open Browser]'</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>56ec2994a98b4869a05e9dc5a3398378</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>ASSERT_RESULT</Name>
+    <Description>The action stopped by ASSERT_RESULT</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>56ec2994a98b4869a05e9dc5a3398378</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2020-06-16 14:04:00</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>ff307490f75b416485ea0a50ec0d804e</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\0104d63b-612b-4872-9578-f6cba403a299.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest3</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-06-16 14:03:56</StartTime>
+    <Duration>5</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>471fa42425e149c5b1dfeb613876c8f3</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+10:00:00</Timezone>
+      <Locale>English (Australia)</Locale>
+      <User>Greg</User>
+      <CpuInfo>Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>32596</TotalMemory>
+      <HostName>GREG-PC</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res20</ResultName>
+    <RunStartTime>2020-06-16 14:03:56</RunStartTime>
+    <Timezone>+10:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

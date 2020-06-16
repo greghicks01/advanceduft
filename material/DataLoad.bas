@@ -7,7 +7,7 @@ Sub prepNewSystem(dstWs As Worksheet, dstRow As Long)
 ' Returns: nIL
 ' Columns 1 - 6
     Dim forceWks As Worksheet
-    Dim oDic As Object
+    Dim oDct As Object
     Set forceWks = Worksheets("Default Data")
     For x = 1 To 6
         fillCellValue dstWs, dstRow, forceWks.Cells(x + 1, "B"), ""
@@ -22,7 +22,7 @@ Sub buildOrg(dstWs As Worksheet, ByVal destRow As Long, sTag As String)
 ' Returns:
 ' Columns 7-20 PP03Org
     Dim forceWks As Worksheet, sTmpVal As String
-    Dim oDic As Object
+    Dim oDct As Object
     Set oDicData = CreateObject("scripting.dictionary")
     
     ' 0         1 sTag
@@ -47,8 +47,8 @@ Sub buildOrg(dstWs As Worksheet, ByVal destRow As Long, sTag As String)
         arTmpName(0) = Trim(arTmpName(0))
         arTmpName(1) = Mid(arTmpName(1), 1, InStr(1, arTmpName(0), "]") - 1)
         
-        oNameCounter.oDic.Item(arTmpName(0)) = PadNumber(CInt(oNameCounter.oDic.Item(arTmpName(0))) + 1, Len(arTmpName(1)))
-        sTmpVal = oNameCounter.oDic.Item(arTmpName(0))
+        oNameCounter.oDct.Item(arTmpName(0)) = PadNumber(CInt(oNameCounter.oDct.Item(arTmpName(0))) + 1, Len(arTmpName(1)))
+        sTmpVal = oNameCounter.oDct.Item(arTmpName(0))
     
     End If
     
@@ -63,7 +63,7 @@ Sub buildPosition(dstWs As Worksheet, ByVal destRow As Long, sTag As String)
 ' columns 21-37 PP03Pos
     
     Dim forceWks As Worksheet, sTmpVal As String
-    Dim oDic As Object
+    Dim oDct As Object
     Set oDicData = CreateObject("scripting.dictionary")
     
     ' sTag
@@ -104,8 +104,8 @@ Sub buildPosition(dstWs As Worksheet, ByVal destRow As Long, sTag As String)
         arTmpName(0) = Trim(arTmpName(0))
         arTmpName(1) = Mid(arTmpName(1), 1, InStr(1, arTmpName(1), "]") - 1)
         
-        oNameCounter.oDic.Item(arTmpName(0)) = PadNumber(CInt(oNameCounter.oDic.Item(arTmpName(0))) + 1, Len(arTmpName(1)))
-        sTmpVal = arTmpName(0) + oNameCounter.oDic.Item(arTmpName(0))
+        oNameCounter.oDct.Item(arTmpName(0)) = PadNumber(CInt(oNameCounter.oDct.Item(arTmpName(0))) + 1, Len(arTmpName(1)))
+        sTmpVal = arTmpName(0) + oNameCounter.oDct.Item(arTmpName(0))
     
     End If
     

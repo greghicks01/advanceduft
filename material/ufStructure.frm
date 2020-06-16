@@ -77,8 +77,8 @@ Sub xmlChilds(oXMLNode As Object, oTVNode As Object)
 ' Accepts:
 ' Returns:
     Dim oChild As Object, oTVnode2 As Object, ot As Object, sTag As String
-    Dim oDic As Object
-    Set oDic = CreateObject("scripting.dictionary")
+    Dim oDct As Object
+    Set oDct = CreateObject("scripting.dictionary")
 
     For Each oChild In oXMLNode.ChildNodes
     
@@ -97,7 +97,7 @@ Sub xmlChilds(oXMLNode As Object, oTVNode As Object)
         arTag = Split(sTag, "|")
         For Each el In arTag
             aNode = Split(arTag(0), ":")
-            oDic.Item(aNode(0)) = aNode(1)
+            oDct.Item(aNode(0)) = aNode(1)
         Next
         
         nodeText = ""
@@ -331,32 +331,32 @@ Sub smallTrav(n As Object, oXML As Object, oXMLNode As Object)
     
     Do
         
-        Set oDic = CreateObject("scripting.dictionary")
+        Set oDct = CreateObject("scripting.dictionary")
         ' process the treeview node for inclusion in XML
         oAr = Split(objSiblingNode.Tag, "|")
         
         'load the array into the Dic object
         For Each oItem In oAr
             oTmp = Split(oItem, ":")
-            oDic.Item(oTmp(0)) = oTmp(1)
+            oDct.Item(oTmp(0)) = oTmp(1)
         Next
         
         ' Create the new XML node
-        Set OnEWeL = oXML.createElement(oDic.Item("node"))
+        Set OnEWeL = oXML.createElement(oDct.Item("node"))
          
         'Remove these before the "Pos" test below
-        oDic.Remove "node"
+        oDct.Remove "node"
             
         ' load the remaining data as attributes if this is a pos node
         'If OnEWeL.nodename = "pos" Then
-        For Each sKey In oDic
-            OnEWeL.setattribute(sKey) = oDic.Item(sKey)
+        For Each sKey In oDct
+            OnEWeL.setattribute(sKey) = oDct.Item(sKey)
         Next
         'End If
         
         'add the node to XML DOM object
         oXMLNode.appendChild OnEWeL
-        Set oDic = Nothing
+        Set oDct = Nothing
         
         'Continue processing the treeview
         If Not objSiblingNode.Child Is Nothing Then
@@ -412,14 +412,14 @@ Sub XLBuildTraverse(n As Object, destRow As Long, dstWs As Worksheet)
 ' Accepts:
 ' Returns:
 
-    'Dim oDic As Object
+    'Dim oDct As Object
     
     Randomize
 
     Set objSiblingNode = n
     
     Do
-        Set oDic = CreateObject("scripting.dictionary")
+        Set oDct = CreateObject("scripting.dictionary")
         ' process the treeview node for inclusion in XML
             oAr = Split(objSiblingNode.Tag, "|")
             
@@ -430,19 +430,19 @@ Sub XLBuildTraverse(n As Object, destRow As Long, dstWs As Worksheet)
         ' load the array into the Dic object
         For Each oItem In oAr
             oTmp = Split(oItem, ":")
-            oDic.Item(oTmp(0)) = oTmp(1)
+            oDct.Item(oTmp(0)) = oTmp(1)
         Next
                  
         ' load the remaining data as attributes if this is a pos node
-        Select Case oDic.Item("node")
+        Select Case oDct.Item("node")
         Case "pos"
             ' for loop - counting the qty/fill options
-            For x = 1 To CInt(oDic.Item("qty"))
+            For x = 1 To CInt(oDct.Item("qty"))
                 'build pos
                 Call prepNewSystem(dstWs, destRow)
                 Call buildPosition(dstWs, destRow, objSiblingNode.Tag)
                     
-                If x <= CInt(oDic.Item("fill")) Then
+                If x <= CInt(oDct.Item("fill")) Then
                     'build person
                     Call buildPerson(dstWs, destRow, objSiblingNode.Tag)
                 Else
@@ -457,7 +457,7 @@ Sub XLBuildTraverse(n As Object, destRow As Long, dstWs As Worksheet)
             
         End Select
         
-        Set oDic = Nothing
+        Set oDct = Nothing
         
         'Continue processing the treeview
         If Not objSiblingNode.Child Is Nothing Then

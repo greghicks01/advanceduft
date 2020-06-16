@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="User">
+<Data>
+    <Name>Test </Name>
+    <Description>Started at 20200616_162234</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 - Action 'Open Browser'</Name>
+    <Description>Started at 20200616_162234</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 – Action 'Open Browser’</Name>
+    <Description>Started iteration1 at 20200616_162234</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Open Browser</Name>
+    <Description>Ended with success</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 - Action 'Open Browser'</Name>
+    <Description>Ended iteration 1 at 20200616_162234with status 0</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 - Action 'Open Browser'</Name>
+    <Description>Ended at 20200616_162234 with status 0</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 20 - Action 'Close Browser'</Name>
+    <Description>Started at 20200616_162234</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 20 – Action 'Close Browser’</Name>
+    <Description>Started iteration1 at 20200616_162234</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 20 - Action 'Close Browser'</Name>
+    <Description>Ended iteration 1 at 20200616_162234with status 0</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 20 - Action 'Close Browser'</Name>
+    <Description>Ended at 20200616_162234 with status 0</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test GUITest3</Name>
+    <Description>Ended at 20200616_162234 with status 0</Description>
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>e1f4bfae223b43919f8e392b2a8af1f1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2020-06-16 16:22:35</StartTime>
+    <Result>Done</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>fe1298354f7f4dc8a23e340c938343d9</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2020-06-16 16:22:34</StartTime>
+    <Duration>1</Duration>
+    <Result>Done</Result>
+    <Extension>
+      <IconKey>6b084a90f5044d0bbcf8b0df58fd5d61</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest3</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-06-16 16:22:31</StartTime>
+    <Duration>4</Duration>
+    <Result>Passed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>fead1085bf704d32a610ec699a114f45</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+10:00:00</Timezone>
+      <Locale>English (Australia)</Locale>
+      <User>Greg</User>
+      <CpuInfo>Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>32596</TotalMemory>
+      <HostName>GREG-PC</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res38</ResultName>
+    <RunStartTime>2020-06-16 16:22:31</RunStartTime>
+    <Timezone>+10:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

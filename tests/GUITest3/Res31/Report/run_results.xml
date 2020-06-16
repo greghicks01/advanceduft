@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Step">
+<Data>
+    <Name>LoadFunctionLibrary</Name>
+    <Description>LoadFunctionLibrary function passed</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>f6badb7aa5db445fade5979845f27953</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Test </Name>
+    <Description>Started at 20200616_142257</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 - Action 'Open Browser'</Name>
+    <Description>Started at 20200616_142257</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 – Action 'Open Browser’</Name>
+    <Description>Started iteration1 at 20200616_142257</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Open Browser</Name>
+    <Description>Ended with success</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 - Action 'Open Browser'</Name>
+    <Description>Ended iteration 1 at 20200616_142257with status 0</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>Step 10 - Action 'Open Browser'</Name>
+    <Description>Ended at 20200616_142257 with status 0</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>GetClassInstance</Name>
+    <Description>Failed to create an instance of '[Close Browser]'</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>GetClassInstance</Name>
+    <Description>Failed to create an instance of '[Close Browser]'</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="User">
+<Data>
+    <Name>ASSERT_RESULT</Name>
+    <Description>The action stopped by ASSERT_RESULT</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <IconKey>362d079173934b8bb84822f0592255ee</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+      <IsPlainTextStepInfo>True</IsPlainTextStepInfo>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Run Error</Name>
+    <Description>General run error.</Description>
+    <StartTime>2020-06-16 14:22:57</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>6e3a776414bc44efaab4789cf53bfa18</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\4ce4e649-36f3-47c6-b044-fb58d01bce39.jpeg" />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>GUITest3</Name>
+    <ToolName>Micro Focus Unified Functional Testing</ToolName>
+    <ToolVersion>0</ToolVersion>
+    <ToolVersionStringLiteral>15.0.1</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2020-06-16 14:22:55</StartTime>
+    <Duration>3</Duration>
+    <Result>Failed</Result>
+    <InputParameters />
+    <Extension>
+      <IconKey>16c3580834474a30bf8cb3041d8c72eb</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+10:00:00</Timezone>
+      <Locale>English (Australia)</Locale>
+      <User>Greg</User>
+      <CpuInfo>Intel(R) Core(TM) i7-5930K CPU @ 3.50GHz</CpuInfo>
+      <NumberOfCores>12</NumberOfCores>
+      <TotalMemory>32596</TotalMemory>
+      <HostName>GREG-PC</HostName>
+      <OSInfo>Windows 10</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res31</ResultName>
+    <RunStartTime>2020-06-16 14:22:55</RunStartTime>
+    <Timezone>+10:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus Unified Functional Testing</OrchestrationToolName>
+    <OrchestrationToolVersion>0</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>15.0.1</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>

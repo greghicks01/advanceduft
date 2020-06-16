@@ -66,9 +66,9 @@ Sub findAllPersNsub()
 ' Accepts:
 ' Returns:
 
-    Dim oDic As Object, wb As Workbook, oFSO As Object, oFile As Object, w As Worksheet
+    Dim oDct As Object, wb As Workbook, oFSO As Object, oFile As Object, w As Worksheet
     
-    Set oDic = CreateObject("Scripting.Dictionary")
+    Set oDct = CreateObject("Scripting.Dictionary")
 
     For Each w In ActiveWorkbook.Worksheets
         If locateHeader(w, "exeID") <> 0 Then
@@ -80,7 +80,7 @@ Sub findAllPersNsub()
             sRow = 2
             With w
                 While .Cells(sRow, tmpLvl) <> ""
-                    oDic.Item(.Cells(sRow, tmpPers) & "," & .Cells(sRow, tmpPersSb)) = ""
+                    oDct.Item(.Cells(sRow, tmpPers) & "," & .Cells(sRow, tmpPersSb)) = ""
                     sRow = sRow + 1
                 Wend
             End With
@@ -89,7 +89,7 @@ Sub findAllPersNsub()
     Set oFSO = CreateObject("Scripting.Filesystemobject")
     Set oFile = oFSO.CreateTextFile("S:\Automation\SAPQTP\QC Project\GUI\Data\pers.dat", True)
     
-    For Each sKey In oDic
+    For Each sKey In oDct
         oFile.Writeline sKey
     Next
 End Sub
